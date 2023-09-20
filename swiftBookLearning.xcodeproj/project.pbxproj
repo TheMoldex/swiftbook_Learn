@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C54CDD492ABB361100E449CE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C54CDD482ABB361100E449CE /* .gitignore */; };
 		C59550102ABB1A3400C03A90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C595500F2ABB1A3400C03A90 /* AppDelegate.swift */; };
 		C59550122ABB1A3400C03A90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59550112ABB1A3400C03A90 /* SceneDelegate.swift */; };
 		C59550142ABB1A3400C03A90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59550132ABB1A3400C03A90 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C54CDD482ABB361100E449CE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		C595500C2ABB1A3400C03A90 /* swiftBookLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftBookLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C595500F2ABB1A3400C03A90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C59550112ABB1A3400C03A90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		C59550032ABB1A3300C03A90 = {
 			isa = PBXGroup;
 			children = (
+				C54CDD482ABB361100E449CE /* .gitignore */,
 				C595500E2ABB1A3400C03A90 /* swiftBookLearning */,
 				C595500D2ABB1A3400C03A90 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54CDD492ABB361100E449CE /* .gitignore in Resources */,
 				C595501C2ABB1A3400C03A90 /* LaunchScreen.storyboard in Resources */,
 				C59550192ABB1A3400C03A90 /* Assets.xcassets in Resources */,
 				C59550172ABB1A3400C03A90 /* Main.storyboard in Resources */,
@@ -302,9 +306,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = counter.dstashkov.swiftBookLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +337,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = counter.dstashkov.swiftBookLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
