@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,15 +13,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="swiftBookLearning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aMx-GE-vVh" userLabel="GreenView">
-                                <rect key="frame" x="20" y="68" width="374" height="377"/>
+                                <rect key="frame" x="20" y="40" width="280" height="244"/>
                                 <color key="backgroundColor" red="0.061491080529999999" green="1" blue="0.29746096280000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sai-cR-6ho" userLabel="RedView">
-                                <rect key="frame" x="20" y="465" width="374" height="377"/>
+                                <rect key="frame" x="20" y="304" width="280" height="244"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.01666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
@@ -31,9 +31,9 @@
                             <constraint firstItem="aMx-GE-vVh" firstAttribute="height" secondItem="Sai-cR-6ho" secondAttribute="height" id="10q-P7-YQR"/>
                             <constraint firstItem="aMx-GE-vVh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2Y0-cF-olW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aMx-GE-vVh" secondAttribute="trailing" constant="20" id="BPG-qs-xEi"/>
-                            <constraint firstItem="aMx-GE-vVh" firstAttribute="width" secondItem="Sai-cR-6ho" secondAttribute="width" id="JB6-cI-P3b"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Sai-cR-6ho" secondAttribute="bottom" constant="20" id="LC2-GM-VfZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sai-cR-6ho" secondAttribute="trailing" constant="20" id="UPo-cb-18z"/>
+                            <constraint firstItem="Sai-cR-6ho" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dYw-XI-0U6"/>
                             <constraint firstItem="aMx-GE-vVh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="g3a-ZH-n7b"/>
                             <constraint firstItem="Sai-cR-6ho" firstAttribute="top" secondItem="aMx-GE-vVh" secondAttribute="bottom" constant="20" id="hSX-5V-JFD"/>
                         </constraints>
